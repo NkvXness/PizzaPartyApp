@@ -2,6 +2,7 @@
   "name": "gp-test-1-who-eats-pizza",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
