@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title>🍕PizzaPartyApp</title>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles.css">
   </head>
 
   <body>
-    <button id="load-btn" class="loading">Load party</button>
-    <div id="app"></div>
-    <script src="src/index.js"></script>
+    <div class="container">
+        <h1>Pizza Party</h1>
+        <div id="pizzaApp">
+            <div class="pizza">
+                <div class="olives"></div>
+                <div class="pepperonis"></div>
+            </div>
+            <button id="load-btn" class="loading btn">Load party</button>
+            <div id="app"></div>
+        </div>
+    </div>
   </body>
+  <script src="src/index.js"></script>
 </html>
